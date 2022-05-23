@@ -521,8 +521,8 @@ public class PortfolioActivity extends AppCompatActivity {
                 }
             } else {
                 allowAutoUpdateRobot = false;
-                addLog("Информация. Значение в поле \"Процент\" должено быть больше нуля.");
-                showDialog("Значение в поле \"Процент\" должено быть больше нуля.");
+                addLog("Информация. Значение в поле \"Процент\" должно быть больше нуля.");
+                showDialog("Значение в поле \"Процент\" должно быть больше нуля.");
             }
         } else {
             allowAutoUpdateRobot = false;
