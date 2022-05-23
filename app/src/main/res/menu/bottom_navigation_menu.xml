@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_portfolio"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        android:title="Портфолио"/>
+    <item
+        android:id="@+id/page_shares"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_account_balance_24"
+        android:title="Биржа"/>
+    <item
+        android:id="@+id/page_orders"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_feed_24"
+        android:title="Заявки"/>
+    <item
+        android:id="@+id/page_robot"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_auto_awesome_24"
+        android:title="Робот"/>
+</menu>
