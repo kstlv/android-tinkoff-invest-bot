@@ -143,7 +143,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:text="Условия работы робота\n\nВыставлять заявку на продажу акции из моего портфеля, если текущая цена поднялась на X (процентов):"
+            android:text="Условия работы робота\n\nВыставлять заявку на продажу акции из моего портфеля, если текущая цена поднялась на X процентов от цены покупки:"
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
