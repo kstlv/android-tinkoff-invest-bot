@@ -491,7 +491,7 @@ public class PortfolioActivity extends AppCompatActivity {
                                         PostOrderResponse postOrderResponse = sandboxService.postOrderSync(shareFigi, Long.parseLong(share.getQuantityLots()), Quotation.newBuilder().setUnits(priceNow).setNano(getLastPrice(shareFigi).getNano()).build(),
                                                 OrderDirection.ORDER_DIRECTION_SELL, accountId, OrderType.ORDER_TYPE_MARKET, "");
                                         if(postOrderResponse.getFigi().length() != 0){
-                                            addLog("Успех. Отправлена заявка на продажу акции " + share.getName() + " (figi: " + shareFigi + ", количество: " + Long.parseLong(share.getQuantityLots()) + ", цена покупки: " + priceBuy + ", текущая цена: " + priceNow + ", потенциальный доход от продажи: " + (priceNow - priceBuyWithPercent) + ").");
+                                            addLog("Успех. Отправлена заявка на продажу акции " + share.getName() + " (figi: " + shareFigi + ", количество: " + Long.parseLong(share.getQuantityLots()) + ", цена покупки: " + priceBuy + ", текущая цена: " + priceNow + ", потенциальный доход от продажи: " + (priceNow - priceBuy) + ").");
                                         } else {
                                             addLog("Ошибка. Что-то пошло не так при отправке запроса на продажу акции" + share.getName() + " (figi: " + shareFigi + ").");
                                         }
